@@ -32,10 +32,19 @@ Checks if found palindromes are prime.
 
 Text file containing 500 million digits of π.
 
-### Results
+## Results
 
-- **Phase 1:** 318272813
-- **Phase 2:** 151978145606541879151
+### Phase 1
+
+1023 competitors passed this phase and found the right number: *318272813*
+
+<img src="img/medal1.png" alt="Phase 1 Medal" width="100">
+
+### Phase 2
+
+152 passed this phase and found the right number: *151978145606541879151*
+
+<img src="img/medal2.png" alt="Phase 2 Medal" width="100">
 
 ## MIT License
 
