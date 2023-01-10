@@ -37,7 +37,7 @@ def main():
                         break
                     else:
                         prime = True
-        
+
         if prime:
             print(skip, 'First prime palindrome: ', number)
             print('Digit position: ', i, end='')
@@ -52,7 +52,7 @@ def main():
             }
 
             print(ordinal.get(l, 'th'))
-            
+
             break
 
     elapsed = time.strftime('%H:%M:%S', time.gmtime(time.time() - start))

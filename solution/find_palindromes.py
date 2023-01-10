@@ -10,7 +10,7 @@ def main():
 
     # Lowest digit: 1
     min = 1
-    
+
     # Highest digit: 500,000,000
     max = 500000000
 
@@ -19,7 +19,7 @@ def main():
     min -= 1
     max -= 1
     digits = min
-    palindromes = {}
+    palindromes = dict()
 
     path = os.path.join(sys.path[0], 'pi500m.txt') # 3.1415...
     file = open(path, 'r')
@@ -27,12 +27,12 @@ def main():
 
     while digits < max:
         s = file.read(length)
-        
+
         if not s:
             break
 
         try:
-            conditions = []
+            conditions = list()
             conditions.append(s[0] != '0')
 
             if (length % 2) == 0:
@@ -47,7 +47,7 @@ def main():
 
         except IndexError:
             break
-        
+
         position = file.tell()
         file.seek(position - (length - 1))
 
@@ -56,19 +56,19 @@ def main():
         elapsed = time.strftime('%H:%M:%S', time.gmtime(time.time() - start))
 
         os.system('cls')
-        
+
         print('            Progress: ', f'{progress:.4f} %')
         print('        Elapsed time: ', elapsed)
         print('   Palindromes found: ', palindromes)
         print('Total of palindromes: ', len(palindromes), skip)
-        
+
         print(' Palindrome\'s length: ', length)
         print('         First digit: ', min + 1)
         print('          Last digit: ', max + 1)
         print('      Digits checked: ', digits - min - 1)
         print('       Current digit: ', digits)
         print('      Current string: ', s)
-        
+
     file.close()
 
 if __name__ == '__main__':
