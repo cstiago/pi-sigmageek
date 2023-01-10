@@ -8,7 +8,7 @@ Find large palindromic prime numbers in the decimal expansion of π (3,1415…)
 
 ### Phase 1
 
-What is the first 9-digit palindromic prime found in the decimal expansion of Pi? 
+What is the first 9-digit palindromic prime found in the decimal expansion of Pi?
 
 ### Phase 2
 
@@ -48,4 +48,4 @@ Text file containing 500 million digits of π.
 
 ## MIT License
 
-This project is available under the MIT License. Read the LICENSE file for more info.
+This project is available under the MIT License. Read the [LICENSE](LICENSE) file for more info.
