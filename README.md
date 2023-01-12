@@ -2,17 +2,25 @@
 
 Find large palindromic prime numbers in the decimal expansion of π (3,1415…)
 
-[Access the full challenge review](https://sigmageek.com/challenge_results/1656603146901x235034290182684670)
+[Access full challenge review](https://sigmageek.com/challenge_results/1656603146901x235034290182684670)
 
-## Challenge
+## Challenge and Results
 
 ### Phase 1
 
 What is the first 9-digit palindromic prime found in the decimal expansion of Pi?
 
+> 1023 competitors passed this phase and found the right number: *318272813*
+
+<img src="img/medal1.png" alt="Phase 1 Medal" width="100">
+
 ### Phase 2
 
 What is the first 21-digit palindromic prime found in the decimal expansion of Pi?
+
+> 152 passed this phase and found the right number: *151978145606541879151*
+
+<img src="img/medal2.png" alt="Phase 2 Medal" width="100">
 
 ## Solution
 
@@ -31,20 +39,6 @@ Checks if found palindromes are prime.
 - pi500m.txt
 
 Text file containing 500 million digits of π.
-
-## Results
-
-### Phase 1
-
-1023 competitors passed this phase and found the right number: *318272813*
-
-<img src="img/medal1.png" alt="Phase 1 Medal" width="100">
-
-### Phase 2
-
-152 passed this phase and found the right number: *151978145606541879151*
-
-<img src="img/medal2.png" alt="Phase 2 Medal" width="100">
 
 ## MIT License
 
