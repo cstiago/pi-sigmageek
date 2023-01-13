@@ -1,3 +1,5 @@
+<img src="img/logo-sigmageek.png" alt="SigmaGeek Logo" width="150">
+
 # SigmaGeek's Pi Challenge
 
 Find large palindromic prime numbers in the decimal expansion of π (3,1415…)
